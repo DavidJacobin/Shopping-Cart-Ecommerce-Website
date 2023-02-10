@@ -24,10 +24,12 @@ export const ShopContextProvider = (props) => {
         setCartItems((prev) => ({...prev, [itemId]: prev[itemId]-1}))
     };
 
+    const contexValue = {cartItems, addToCart, removeFromCart};
+
+
+    
     return (
-        <ShopContext.Provider>{props.children}</ShopContext.Provider>
-
-
+        <ShopContext.Provider value={contexValue}>{props.children}</ShopContext.Provider>
 
     )
 }
