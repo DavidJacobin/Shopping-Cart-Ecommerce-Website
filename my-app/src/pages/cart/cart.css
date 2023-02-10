@@ -41,3 +41,94 @@
     margin: 10px;
     cursor: pointer;
 }
+
+.plus {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #00D775, #00BD68);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 30px;
+    padding: 0;
+    width: 50px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    white-space: nowrap;
+    z-index: 9;
+    border: 0;
+
+
+}
+
+.minus {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #ff0000, #ef1111);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 30px;
+    padding: 0;
+    width: 50px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 10px;
+    pointer-events: auto;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    white-space: nowrap;
+    z-index: 9;
+    border: 0;
+
+}
+
+.input {
+    width: 50px;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    margin: 10;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    
+}
+
+.pay{
+    width: 100px;
+    border: 1px solid #3ffe0a;
+    box-sizing: border-box;
+    margin: 10;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 10%;
+    pointer-events: auto;
+    text-align: center;
+    
+}
+
+.cont{
+    width: 100px;
+    border: 1px solid #00affb;
+    box-sizing: border-box;
+    margin: 10;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    margin-left: 0.1%;
+    pointer-events: auto;
+    text-align: center;
+    touch-action: manipulation;
+   
+    
+    
+}
