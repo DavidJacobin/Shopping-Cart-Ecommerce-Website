@@ -28,7 +28,19 @@ export const ShopContextProvider = (props) => {
         setCartItems((prev) => ({...prev, [itemId]: newAmount}))
     };
 
-    const contexValue = {cartItems, addToCart, removeFromCart,updateCartItemCount };
+    const getTotal = () =>{
+        let total = 0
+        for(const item in cartItems){
+            if(cartItems[item] > 0){
+                let iteminfo = PRODUCTS.find((product)=> product.id ===Number(item))
+                total += cartItems[item] * iteminfo.price
+            }
+        }
+
+        return total
+    };
+
+    const contexValue = {cartItems, addToCart, removeFromCart,updateCartItemCount,getTotal };
 
 
     

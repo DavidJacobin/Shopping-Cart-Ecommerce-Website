@@ -22,6 +22,7 @@ function App() {
         </Router>
       </ShopContextProvider>
     </div>
+    
   );
 }
 
